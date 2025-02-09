@@ -1,0 +1,105 @@
+header{
+border: solid red 1px;
+min-height: 10px;
+}
+#banier{
+    border: solid red 1px;
+    min-height: 10px;s
+}
+nav{
+    border: solid #45A 1px;
+    min-height: 50px; 
+    background: #444;
+}
+img_bannier{
+    width: 100%;
+}
+#menu{
+    border: solid #567 1px;
+     padding: 0px;
+       margin: 0px;
+}
+#menu>li{
+    list-style: none;
+    border: solid #234 1px;
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+}
+.element_menu{
+    text-decoration: none;
+    border: white 1px;
+    display: inline-block;
+    width: 90%;
+    padding: 15px;
+    color: white;
+}
+.element_menu:hover{
+    background: white;
+    color: black;
+}
+#conteneur_central{
+    border: solid red 1px;
+}
+#conteneur_gauche{
+    border: solid #45A 1px;
+    width: 60%;
+    display: inline-block;
+    min-height: 350px;
+}
+article{}
+section{
+    padding: 3px;
+}
+.titre_1{
+    //border: solid red 1px;
+font-size: 35px;
+color:green ;
+margin: 5pxs;
+}
+.titre_2{
+    font-size: 30px;
+    color:#888;
+    margin: 3px;
+}
+    border: solid red 1px;
+}
+#conteneur_droite{
+    border: solid #509 1px;
+    width: 34%;
+    display: inline-block;
+    min-height: 350px;
+    vertical-align: top;
+}
+
+footer{
+    border: solid red 1px;
+    min-height: 30%;
+} 
+nav ul {
+    list-style-type: none; /* Supprimer les puces */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Disposer les éléments en ligne */
+}
+
+nav ul li {
+    margin-right: 15px; /* Espacement entre les éléments */
+}
+
+nav ul li a {
+    text-decoration: none; /* Enlever le soulignement des liens */
+    color: black; /* Couleur du texte */
+}
+
+nav ul li p {
+    font-size: 12px; /* Taille du texte de la description */
+    color: grey; /* Couleur du texte de la description */
+    margin: 0; /* Supprimer les marges */
+}
+body {
+    background-image: url('chemin/vers/votre/floris.jpg');
+    background-size: cover; /* Pour s'assurer que l'image couvre tout l'écran */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    background-position: center center; /* Pour centrer l'image */
+  }
